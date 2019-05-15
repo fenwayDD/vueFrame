@@ -9,13 +9,16 @@ import App from './app.vue';
 import 'iview/dist/styles/iview.css';
 import './assets/css/public.css';
 import store from './libs/store';
-
+import ajax from './libs/ajax';
+import vueParticles from 'vue-particles';
+import VeeValidate from 'vee-validate';
 
 Vue.use(VueRouter);
 Vue.use(Vuex);
 Vue.use(iView);
-
-
+Vue.use(ajax);
+Vue.use(vueParticles);
+Vue.use(VeeValidate);
 
 // 路由配置
 const RouterConfig = {

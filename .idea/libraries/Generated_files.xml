@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/TB_html/env.js" />
+        <item url="file://$PROJECT_DIR$/dist/TB_html/src/libs/ajax.js" />
+        <item url="file://$PROJECT_DIR$/dist/TB_html/src/main.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/TB_html/env.js" />
+      <root url="file://$PROJECT_DIR$/dist/TB_html/src/libs/ajax.js" />
+      <root url="file://$PROJECT_DIR$/dist/TB_html/src/main.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -1,4 +1,14 @@
 {
-  "presets": ["es2015"]
-
+  "presets": [
+    ["es2015", {
+      "modules": false
+    }]
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2"],
+      "plugins": ["istanbul"]
+    }
+  }
 }

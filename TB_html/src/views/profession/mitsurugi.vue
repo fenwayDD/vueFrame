@@ -4,7 +4,8 @@
 
 <template>
     <div>
-        {{this.$store.state.count}}
+        <input type="text" v-model="username" v-validate="'required|alpha_num'" name="username">
+        <span>{{ errors.first('username') }}</span>
     </div>
 </template>
 
@@ -12,10 +13,12 @@
 	export default {
 		name: '',
 		data() {
-			return {}
+			return {
+				username: ''
+            }
 		},
 		mounted() {
-           this.$store.commit('increment', {num: 10});
+
 		},
 		methods: {},
 		components: {}

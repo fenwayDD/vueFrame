@@ -46,7 +46,9 @@
             }
         },
         mounted() {
-
+            if (!sessionStorage.getItem('login')) {
+            	this.$router.push('/login');
+            }
         },
         methods: {
 

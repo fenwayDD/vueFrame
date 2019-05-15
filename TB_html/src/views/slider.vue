@@ -35,7 +35,7 @@
 
 <template>
     <div class="slider">
-        <div v-for="route in sliderMenu" class="slider-item">
+        <div v-for="route in sliderMenu" class="slider-item" v-if="route.meta.parent">
             <div class="slider-item-title" @click="sliderExpend(route)">
                 <Icon class="fLeft" type="md-analytics" />
                 <span class="fLeft m-l-10">{{ route.meta.title }}</span>

@@ -410,76 +410,13 @@ a:hover{color:#108CEE;}
 .bg-red-test{background-color: #D30402}
 .bg-red-test:hover{background-color: #bf0705;border: 1px solid #bf0705}
 .border-red-test{border: 1px solid #D30402}
-.normal-header{
-    width: 100%;
-    height: 41px;
-    line-height: 41px;
-    padding-left: 16px;
-    border-bottom: 1px solid rgba(225,227,228,1);
-    font-weight: 500;
-}
 
-/*修复form 表单系统偏好设置 高度bug*/
-.ivu-form-item:after, .ivu-form-item:before{
-    display: none;
+.specialInput .ivu-input{
+    height: 50px !important;
 }
-/*树状图样式*/
-.ivu-tree-arrow{
-    display: none;
-}
-.ivu-tree ul li{
-    margin: 0;
-}
-
-.ivu-input-group-append, .ivu-input-group-prepend{
-    padding: 4px 12px;
-    background: white;
-}
-/*iview table td padding*/
-.ivu-table-cell{
-    padding: 0 !important;
-}
-.ivu-table td, .ivu-table th{
-    /*border-bottom: 1px solid #ccc;*/
-}
-.demo-table-info-row td{
-    background-color: #ed3f14 !important;
-    color: #fff;
-}
-.icon-header .ivu-btn>.ivu-icon+span, .icon-header .ivu-btn>span+.ivu-icon{
-    margin-left: 0 !important;
-}
-.columnsList_assetsName{padding-left: 30px;}
-.columnsList_strategyName{padding-left: 50px;}
-.columnsListLeftP-L-20{padding-left: 20px;}
-/*分页样式修改*/
-.specPage .ivu-page-item-active{
-    background-color: #468ce9;
-    border-color: #468ce9;
-}
-.specPage .ivu-page-item{
-    height: 24px;
-    min-width: 24px;
-    line-height: 24px;
-    margin-right: 0;
-}
-.specPage .ivu-page-item-jump-next, .specPage .ivu-page-item-jump-prev, .specPage .ivu-page-next, .specPage .ivu-page-prev{
-    height: 24px;
-    min-width: 24px;
-    line-height: 24px;
-}
-.specPage .ivu-page-next{
-    margin-left: 0;
-}
-.specPage .ivu-page-prev{
-    margin-right: 0;
-}
-.specPage .ivu-select-single .ivu-select-selection{
-    height: 24px;
-}
-.specPage .ivu-select-single .ivu-select-selection .ivu-select-placeholder,.specPage .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
-    height: 24px;
-    line-height: 24px;
+.specialInput .ivu-input-icon{
+    font-size: 20px !important;
+    line-height: 50px !important;
 }
 
 /*全局滑动动画*/

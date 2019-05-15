@@ -15,9 +15,17 @@
 			return {}
 		},
 		mounted() {
-
+            this.ajaxTest();
 		},
-		methods: {},
+		methods: {
+			ajaxTest () {
+				this.$axios.post('reg', {}, (res) => {
+					console.log(res);
+                }, (err) => {
+					console.log(err);
+                });
+            }
+        },
 		components: {}
 	}
 </script>

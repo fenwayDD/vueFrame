@@ -33,7 +33,7 @@
     <div id="tab">
         <div class="layout-logo"></div>
         <div class="layout-nav">
-            <li v-for="tab in tabMenu" :name="tab.parent" :style="{color: tab.parent==activeName?'#fff':''}" @click="tabChange(tab)">
+            <li v-for="tab in tabMenu" v-if="tab.parent" :name="tab.parent" :style="{color: tab.parent==activeName?'#fff':''}" @click="tabChange(tab)">
                 <Icon type="ios-navigate"></Icon>
                 <span class="m-l-5">{{ tab.title }}</span>
             </li>

@@ -90,6 +90,28 @@ const routers = [
 				component: (resolve) => require(['./views/copy/incubus'], resolve)
 			}
 		]
+	},
+	{
+		path: '*',
+		meta: {
+			title: '404',
+			parent: false,
+			expend: false
+		},
+		hidden: true,
+		component: (resolve) => require(['./views/404.vue'], resolve),
+		children: []
+	},
+	{
+		path: '/login',
+		meta: {
+			title: '登录',
+			parent: false,
+			expend: false
+		},
+		hidden: true,
+		component: (resolve) => require(['./views/login.vue'], resolve),
+		children: []
 	}
 ];
 export default routers;
